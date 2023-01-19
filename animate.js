@@ -31,6 +31,6 @@ img.addEventListener('click', function(e) {
         langoption.classList.toggle('open');
         e.stopPropagation();
       });
-      img.addEventListener('click', function() {
-        img.classList.remove('open');
+      document.body.addEventListener('click', function() {
+        langoption.classList.remove('open');
       });
